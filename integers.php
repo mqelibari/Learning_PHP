@@ -20,7 +20,19 @@
 
 	$one = 1.5;
 	$two = -1.5;
-	
 	echo (int)($one)."\n";
 	echo (int)($two)."\n";
 
+	/* If a float equals more then +/- 9.22e+18 = 2^63 on 64-bit platforms
+	the converting will result to an undifined result.*/
+
+	$Null_value = Null;
+	$Null_value = (int) $Null_value;
+	//This results to 0;
+
+	
+	//string casting
+
+	$String = "5.6";
+	$as_int = (int) $String;
+	//This will be rounded towards 0 and convertet numeric to integer = 5	
