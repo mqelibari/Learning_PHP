@@ -14,3 +14,5 @@
 	echo gettype($new)."\n";
 	echo $new;
 	//We can add or subtract the different bases with each other
+
+	//If a integer is to big vor the System it will be converted to a float
