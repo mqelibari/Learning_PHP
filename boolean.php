@@ -8,3 +8,5 @@
 	$type_Null = NULL;
 	//This values are converted to false boolean values. 
 	//All other values are true
+	//This is also true, only the values above are false
+	$negative_one = -1;
