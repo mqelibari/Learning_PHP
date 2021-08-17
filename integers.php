@@ -12,7 +12,15 @@
 
 	$new = $decimal + $octal;
 	echo gettype($new)."\n";
-	echo $new;
+	echo $new."\n";
 	//We can add or subtract the different bases with each other
 
 	//If a integer is to big vor the System it will be converted to a float
+	//If we cast a float to an int it will be rounded towards zero.
+
+	$one = 1.5;
+	$two = -1.5;
+	
+	echo (int)($one)."\n";
+	echo (int)($two)."\n";
+
