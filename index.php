@@ -1,8 +1,7 @@
-echo "This will be ignored by the PHP Parser";
-
 <?php
 	echo "Hello Wordl!";
+	//Here we need a Semicolon
 
-?>
-
-echo "And This to";
+	echo "Bye World"
+	//But here the closing Tag includes the Semicolon
+ ?>
