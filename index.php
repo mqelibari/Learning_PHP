@@ -1,7 +1,12 @@
 <?php
-	echo "Hello Wordl!";
-	//Here we need a Semicolon
+/*Two types 
+the Block comment */
+//The Line comment
+/* The block comment overrides the linecomment*/
 
-	echo "Bye World"
-	//But here the closing Tag includes the Semicolon
- ?>
+//*
+	echo "Hello Wordl!";
+
+	//echo "Bye World"
+// */ 
+?>
