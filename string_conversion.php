@@ -11,6 +11,6 @@
 	//special conversion
 	$bo = true;
 	$t_str = (string) $bo;
-	echo "This string has the value 1: {$t_str}\n";
+	echo "This string has the value 1: $t_str\n";
 	$sec_bo = false;
 	echo "This string is empty : $sec_bo\n";
