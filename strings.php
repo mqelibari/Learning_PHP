@@ -8,5 +8,14 @@
 
 	//Negativ Indexes
 	if($var[-2] == "l"){
-		echo "true";
+		echo "true"."\n";
 	}
+	$one = "Hello";
+	$two = " World";
+	$three = "!";
+	echo $one.$two;
+
+	echo $one.$two.$three;
+
+	//String concatenate is done by the '.' (dot) operator not with the '+' addition operator
+	//It is poosible to concatenate more then one string together
